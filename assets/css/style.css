@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.game-info {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+}
+
+.card-blank {
+    background-color: silver;
+}
